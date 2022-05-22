@@ -61,17 +61,18 @@ a {
 }
 
 .ethereum-text {
-    padding-left: 8px;
+    padding-left: 5px;
     margin-top: 2px;
 }
 
 .clock {
     display: flex;
     color: hsl(215, 51%, 70%);
+    margin-right: 2px;
 }
 
 .clock-text {
-    padding-left: 8px;
+    padding-left: 3px;
     margin-top: 2px;
 }
 
