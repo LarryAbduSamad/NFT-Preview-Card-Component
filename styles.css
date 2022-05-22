@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;   
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit, sans;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-image {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.card-text__heading {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600px;
+}
+
+.card-text__body {
+    margin-top: 15px;
+    line-height: 25px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400px;
+}
+
+.card-extra {
+    margin-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;  
+    border-bottom: 1px solid hsl(215, 32%, 27%);  
+}
+
+.ethereum {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+
+.ethereum-text {
+    padding-left: 8px;
+    margin-top: 2px;
+}
+
+.clock {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+
+.clock-text {
+    padding-left: 8px;
+    margin-top: 2px;
+}
+
+.jules-wyvern {
+    display: flex;
+    margin-top: 15px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.caption {
+    margin: 5px  5px 0 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);;
+}
+
+.attribution {
+    font-size: 12px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%);
+    position: fixed;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
